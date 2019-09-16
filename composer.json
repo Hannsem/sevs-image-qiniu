@@ -1,0 +1,18 @@
+{
+    "name": "hansem/sevs-image-qiniu",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hanmorning",
+            "email": "846023518@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {"Qiniu\\": "src/Qiniu"},
+        "files": ["src/Qiniu/functions.php"]
+    }
+}
